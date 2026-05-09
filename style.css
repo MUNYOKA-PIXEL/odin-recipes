@@ -1,0 +1,75 @@
+/* --- Global Styles --- */
+body {
+    background-color: #fdfaf6;
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* --- Index Page (Home) Styling --- */
+.main-container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.recipe-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+}
+
+.recipe-menu a {
+    display: block;
+    width: 200px;
+    padding: 15px;
+    background: white;
+    border: 2px solid #d35400;
+    border-radius: 10px;
+    color: #d35400;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.recipe-menu a:hover {
+    background: #d35400;
+    color: white;
+}
+
+/* --- Recipe Detail Styling --- */
+.recipe-content {
+    max-width: 700px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+h1 { color: #d35400; 
+    text-align: center; 
+    font-size: 48px; 
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 30px;
+    color: #777;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
